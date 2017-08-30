@@ -12,6 +12,10 @@ body {
     display: none;
 }
 
+.drop-in {
+  animation-name: dropIn;
+}
+
 #header {
 width: 100%;
 background-color: #F78733;
@@ -32,6 +36,10 @@ position: fixed;
 }
 
 /***************ALL BUTTONS*****************/
+button {
+  cursor: pointer;
+}
+
 .comp-btns {
   margin-left: 55px;
 }
@@ -223,7 +231,7 @@ background-size: cover;
 #slide4{
 background-color: #4ABDAC;
 color: #F4F4F4;
-height: 600px;
+height: 700px;
 padding: 200px 0;
 }
 
@@ -332,4 +340,5 @@ padding: 200px 0;
   .social-icon {
     height: 50px;
     width: 50px;
+    cursor: pointer;
   }
