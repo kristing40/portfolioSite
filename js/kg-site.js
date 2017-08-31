@@ -10,6 +10,14 @@ $("#fotofinder-btn").on('click', function(e) {
   window.location = "https://kristing40.github.io/Foto_Finder/";
 });
 
+$("#headCount-btn").on('click', function(e) {
+  window.location = "https://heroku-headcount.herokuapp.com/";
+});
+
+$("#swapi-btn").on('click', function(e) {
+  window.location = "https://heroku-swapi-box.herokuapp.com/";
+});
+
 //EventListener to click to static comp production websites
 $("#static1-btn").on('click', function (e) {
   e.preventDefault();
