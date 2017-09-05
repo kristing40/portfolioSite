@@ -53,19 +53,6 @@ body {
   height: 170px;
 }
 
-#logo {
-  margin: 30px;
-  text-align: center;
-}
-
-#logo a {
-  color: #fff;
-  font-family: 'Raleway', sans-serif;
-  font-size: 30px;
-  font-variant: small-caps;
-  text-decoration: none;
-}
-
 
 /*************ALL NAVIGATION***************/
 ul {
@@ -207,6 +194,19 @@ p {
   margin: 15px 0;
   padding: 0;
   z-index: 1;
+}
+
+#logo {
+  margin: 30px;
+  text-align: center;
+}
+
+#logo a {
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  font-variant: small-caps;
+  text-decoration: none;
 }
 
 .bio {
@@ -469,31 +469,13 @@ p {
     }
 
     #nav li {
-      padding-left: 14px;
+      padding-left: 20px;
     }
 
     #logo {
-      margin: 15px 0 15px 94px;
+      margin: 15px 0 15px 75px;
       text-align: center;
     }
-
-    /*#logo {
-      grid-column-start: 1;
-      grid-column-end: span col2-start;
-      grid-row-start: 1;
-    }
-
-    #nav {
-      grid-column-start: 4;
-      grid-column-end: span col5-start;
-      grid-row-start: 1;
-    }
-
-    .header-grid {
-      display: grid;
-      grid-template-columns: 80px 180px auto 180px 80px;
-      grid-template-rows: 25%;
-    }*/
 
     .header-grid {
       display: grid;
@@ -545,7 +527,7 @@ p {
 
     #slide2 {
       height: 650px;
-      padding: 255px 0 70px 0;
+      padding: 253px 0 70px 0;
     }
 
     #slide3 {
@@ -566,13 +548,13 @@ p {
       display: grid;
       grid-template-columns: repeat(3, 300px);
       grid-template-rows: 355px;
-      grid-gap: 30px;
+      grid-gap: 39px;
     }
 
     .skills-grid {
       display: grid;
-      grid-template-columns: repeat(7, 125px);
-      grid-template-rows: 125px;
+      grid-template-columns: repeat(7, 123px);
+      grid-template-rows: 123px;
       grid-column-gap: 20px;
     }
   }
